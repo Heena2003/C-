@@ -11,7 +11,7 @@ int binary_search(int arr[], int len, int target)
              e = m - 1; 
         }
         else if(target > arr[m])
-        { 
+        {   
             s = m + 1; 
         }
         else if(target == arr[m])
